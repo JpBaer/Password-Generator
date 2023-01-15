@@ -1,2 +1,42 @@
 # Password-Generator
-A web app that uses Javascript to create and display a random password
+
+## Description
+
+```
+A web application that upon clicking a button will return a random password for the user.  When the generate password button is pressed the user will be prompted for a password length and wether or not the user wants lowercase letters, uppercase letters, numbers, or special characters.  The application will then use javascript to create a random password of the desired length and display it on the site.  
+```
+
+## User Story
+
+```
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
+```
+
+## Acceptance Criteria
+
+```
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN asked for character types to include in the password
+THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
+```
+
+## Usage
+When the application is launched the password generation page will be displayed.  Click the 'Generate Password' button to begin creating your password.
+
+![WebsiteScreenshot](./Assets/Screen%20Shot%202023-01-14%20at%207.20.06%20PM.png)
+
+Deployed Website:
