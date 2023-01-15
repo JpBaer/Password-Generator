@@ -39,4 +39,4 @@ When the application is launched the password generation page will be displayed.
 
 ![WebsiteScreenshot](./Assets/Screen%20Shot%202023-01-14%20at%207.20.06%20PM.png)
 
-Deployed Website:
+Deployed Website: https://jpbaer.github.io/Password-Generator/
